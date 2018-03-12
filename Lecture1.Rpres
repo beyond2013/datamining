@@ -6,7 +6,11 @@ autosize: true
 
 
 ========================================================
-![Data Mining Concepts and Techniques](Lecture1-figure/Mine.jpg)
+![Mine](Lecture1-figure/Mine.jpg)
+
+
+========================================================
+![Warehouse](Lecture1-figure/warehouse.jpg)
 
 Course Outline
 ========================================================
