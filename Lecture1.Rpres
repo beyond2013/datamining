@@ -60,6 +60,12 @@ Data Mining as one of the steps in KDD
 ========================================================
 ![](Lecture1-figure/DM1stepKDD.png)
 
+Architecture of a typical data mining system
+========================================================
+<div align="center">
+<img src="Lecture1-figure/DMArchitecture.png">
+</div>
+
 Data Mining on what kind of data
 =======================================================
 - Relational Databases (DBMS)
@@ -76,6 +82,10 @@ Data Mining on what kind of data (contd)
 - Text Databases and Multimedia Databases
 - Data Streams
 - World Wide Web
+
+Transactional Databases
+=======================================================
+- consists of a file where each record represents
 
 Data Mining Functionalities and kinds of patterns
 =======================================================
