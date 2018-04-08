@@ -39,12 +39,41 @@ Inspecting various attributes of an email e.g.
 1. Are all attributes equally important?
 2. How to decide which attribute is more important?
 
+## Data Classification
+
+![Learning from data](classification1.png)
+
+![Classification](classification2.png)
+
+
 ## Classification using Decision Trees
 ### What is a decision tree?
 
 It is a (flowchart like) **_tree structure_**
 
 ![A Decision Tree for the concept _buys_computer_](decisionTree.png)
+
 - Decision Tree indicating whether a customer is likely to purchase a computer
 - Each **internal node** represents a **test** on an attribute  
 - Each **leaf node** represents a **class** (either yes or no)  
+
+
+
+
+## Induction of Decision Tree
+
+### Sample data
+```{r, echo=FALSE}
+data <- read.csv(file = "data.csv", header = TRUE)
+knitr::kable(data)
+```
+
+### Algorithm: Generate decision tree
+
+
+
+## Useful Online resources
+
+[A blog post by Luis Serrano](https://medium.com/udacity/shannon-entropy-information-gain-and-picking-balls-from-buckets-5810d35d54b4) explaining entropy, information gain 
+
+[A question on cross validated](https://stats.stackexchange.com/questions/329756/what-is-the-significance-of-the-log-base-being-2-in-entropy) discussing log base
