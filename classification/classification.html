@@ -322,6 +322,34 @@ $(document).ready(function () {
 </div>
 <div id="algorithm-generate-decision-tree" class="section level3">
 <h3>Algorithm: Generate decision tree</h3>
+<p><strong>Input:</strong></p>
+<ul>
+<li>Data partition, D, which is a set of training tuples and their associated class labels;<br />
+</li>
+<li>attribute list, the set of candidate attributes;<br />
+</li>
+<li>Attribute selection method, a procedure to determine the splitting criterion that “best” par- titions the data tuples into individual classes. This criterion consists of a splitting attribute and, possibly, either a split point or splitting subset.</li>
+</ul>
+<p><strong>Output:</strong> A decision tree.</p>
+<p><strong>Method:</strong></p>
+<pre class="r"><code>1. create a node N;
+2. if tuples in D are all of the same class, C then
+3. return N as a leaf node labeled with the class C;
+4. if attribute list is empty then
+5. return N as a leaf node labeled with the majority class in D; // majority voting
+6. apply AttributeSelectionMethod(D, attribute list) to find the “best” splitting criterion;
+7. label node N with splitting criterion;
+8. if splitting attribute is discrete-valued and
+ multiway splits allowed then // not restricted to binary trees
+9. attribute list ← attribute list − splitting attribute; // remove splitting attribute
+10. for each outcome j of splitting criterion
+// partition the tuples and grow subtrees for each partition
+11. let Dj be the set of data tuples in D satisfying outcome j; // a partition
+12. if Dj is empty then
+13. attach a leaf labeled with the majority class in D to node N;
+14. else attach the node returned by GenerateDecisionTree(Dj , attribute list) to node N;
+endfor
+15. return N;</code></pre>
 </div>
 </div>
 <div id="useful-online-resources" class="section level2">
