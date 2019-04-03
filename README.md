@@ -24,4 +24,8 @@
 -  Quizes:	      15 Marks  
 -  Assignments:   15 Marks  
 
+## Related software and useful online resources:
 
+- [Download R](https://cloud.r-project.org/)
+- [Download RStudio](https://www.rstudio.com/products/rstudio/download/) Note: RStudio Desktop Open Source License is free.
+- [Quick-R by DataCamp](https://www.statmethods.net/index.html)
