@@ -24,4 +24,7 @@
 -  Quizes:	      15 Marks  
 -  Assignments:   15 Marks  
 
+## Useful Online Resources:
+
+- [OLTP and OLTP vs OLAP](https://www.ibm.com/cloud/learn/oltp)
 
